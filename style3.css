@@ -1,0 +1,22 @@
+body {
+    background-color: darkgrey;
+}
+
+
+
+
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: chocolate;
+}
+
+
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: royalblue;
+    text-decoration: underline;
+}

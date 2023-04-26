@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+h1 {
+    font-size: xx-large;
+    color: aqua;
+}
+
+h2 {
+    font-size: xx-large;
+    display: -moz-inline-box;
+    border: solid;
+    font-weight: bold;
+    color: yellow;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* img {
+    display;
+    flex-direction: column;
+    padding: 20px;
+} */
+
+/* div {
+    float: right;
+} */
+
+.tooltip {
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+    text-align: center;
+    border: dashed red;
+    padding: 20px;
+    margin: 30px 20px 0;
+}
+
+
+.multipleImagesRow {
+    display: flex;
+}
+
+.multipleImagesRow>div {
+    width: 50%;
+    text-align: center;
+}
+
+.multipleImagesRow>div>img {
+    width: 80%;
+    display: block;
+}
+
+.flexContainer {
+    color: white;
+    display: flex;
+    margin-top: 10px;
+}
+
+.flexContainer>div {
+    width: 33.33%;
+    padding: 10px;
+    border: 2px red dotted;
+    background-color: royalblue;
+}
+
+.flexContainer>div:first-child {
+    background-color: coral;
+}
+
+.flexContainer>div:not(:last-child) {
+    margin-right: 10px;
+}
+
+.flexContainer>div>img {
+    width: 90%;
+}
